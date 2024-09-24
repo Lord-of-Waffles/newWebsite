@@ -2,6 +2,7 @@ import { useState } from 'react'
 
 import './App.css'
 import forestPic from './assets/forestPic.jpg'
+import hand from './assets/hand.png'
 
 function App() {
 
@@ -16,7 +17,11 @@ function App() {
     <>
 
       <div id="header">
-        <img src={forestPic} alt="Deer drinking water by a river" />
+        <img id="profilePic" src={forestPic} alt="Deer drinking water by a river" />
+        <img id="hand" src={hand} alt="Hand waving" />
+
+
+
       </div>
 
 
@@ -29,10 +34,10 @@ function App() {
         ><h3>My Background</h3></button>
         <button
         //onClick={GoToProjects}
-        ><h3>Projects I've worked on</h3></button>
+        ><h3>Projects</h3></button>
         <button
         //onClick={GoToContactInfo}
-        ><h3>My contact information</h3></button>
+        ><h3>Contact Information</h3></button>
         <a href="https://github.com/Lord-of-Waffles" target="_blank"><h3>My GitHub</h3></a>
       </div>
     </>
