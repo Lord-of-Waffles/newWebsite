@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, Link, Outlet } from 'react'
 
 import './App.css'
 import forestPic from './assets/forestPic.jpg'
@@ -19,12 +19,7 @@ function App() {
       <div id="header">
         <img id="profilePic" src={forestPic} alt="Deer drinking water by a river" />
         <img id="hand" src={hand} alt="Hand waving" />
-
-
-
       </div>
-
-
       <div>
         <h1>Hi, welcome to my website.</h1>
         <h2>I'm Benjamin Worton, a student at the Haaga-Helia University of Applied Sciences studying software development.</h2>
