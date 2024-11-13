@@ -25,17 +25,13 @@ function ResponsiveAppBar() {
     const handleOpenNavMenu = (event) => {
         setAnchorElNav(event.currentTarget);
     };
-    const handleOpenUserMenu = (event) => {
-        setAnchorElUser(event.currentTarget);
-    };
+
 
     const handleCloseNavMenu = () => {
         setAnchorElNav(null);
     };
 
-    const handleCloseUserMenu = () => {
-        setAnchorElUser(null);
-    };
+
 
     return (
         <AppBar position="static" sx={{ backgroundColor: '#660cf7' }}>
@@ -44,7 +40,6 @@ function ResponsiveAppBar() {
                     <Typography
                         variant="h6"
                         noWrap
-                        component="a"
                         sx={{
                             mr: 2,
                             display: { xs: 'none', md: 'flex' },

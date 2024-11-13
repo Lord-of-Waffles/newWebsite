@@ -5,6 +5,8 @@ import Cards from './Cards';
 import { createTheme } from '@mui/material/styles';
 import { Box, Container, Typography } from '@mui/material';
 import Stack from '@mui/material/Stack';
+import Tilt from 'react-parallax-tilt';
+
 
 import forestPic from '../assets/forestPic.jpg';
 
@@ -36,7 +38,9 @@ function Home() {
                             color: '#a18cd1'
                         }}
                     >
-                        <img src={forestPic} alt="Deer drinking water by a river" style={{ width: '100%', height: 'auto', borderRadius: '15px' }} />
+                        <Tilt tiltMaxAngleX={2} tiltMaxAngleY={2} scale={1.02}>
+                            <img src={forestPic} alt="Deer drinking water by a river" style={{ width: '100%', height: 'auto', borderRadius: '15px' }} />
+                        </Tilt>
                     </Box>
                 </Box>
             </Container>
