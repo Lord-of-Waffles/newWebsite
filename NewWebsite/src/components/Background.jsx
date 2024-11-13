@@ -42,7 +42,7 @@ function Backgrounds() {
                     <Typography variant='h4'>- Python</Typography>
                 </Box>
                 <Typography variant='h4' marginTop={3}>
-                    I'm also familiar with the following tools:
+                    I'm familiar with technologies such as:
                 </Typography>
                 <Box>
                     <Typography variant='h4' marginTop={3}>- Git</Typography>

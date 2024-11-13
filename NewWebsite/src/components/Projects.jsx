@@ -13,7 +13,7 @@ function Projects() {
     return (
         <>
             <ResponsiveAppBar />
-            <Typography variant="h2" align="center" sx={{ mt: 5 }}>Projects</Typography>
+            <Typography variant="h2" align="center" sx={{ mt: 5 }}>Projects (Page WIP)</Typography>
             <Container maxWidth="lg">
                 <Box marginTop={5}>
                     <Stack direction="row" spacing={2}>

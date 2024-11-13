@@ -39,7 +39,7 @@ function Home() {
                         }}
                     >
                         <Tilt tiltMaxAngleX={2} tiltMaxAngleY={2} scale={1.02}>
-                            <img src={forestPic} alt="Deer drinking water by a river" style={{ width: '100%', height: 'auto', borderRadius: '15px' }} />
+                            <img src={forestPic} alt="Deer drinking water by a river" style={{ width: '100%', height: 'auto', borderRadius: '15px', marginLeft: '10%' }} />
                         </Tilt>
                     </Box>
                 </Box>
