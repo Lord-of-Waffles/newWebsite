@@ -1,2 +1,2 @@
 # newWebsite
- New personal website to replace old one
+New personal website created with React.js (WIP)
