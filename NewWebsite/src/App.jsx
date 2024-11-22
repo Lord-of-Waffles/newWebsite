@@ -4,10 +4,10 @@ function App() {
   return (
     <>
       <nav>
-        <Link to={"/"}>Home</Link>
-        <Link to={"/projects"}>Projects</Link>
-        <Link to={"/background"}>Background</Link>
-        <Link to={"/contact"}>Contact</Link>
+        <Link to={"/"}></Link>
+        <Link to={"/projects"}></Link>
+        <Link to={"/background"}></Link>
+        <Link to={"/contact"}></Link>
       </nav>
       <Outlet />
     </>
