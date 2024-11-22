@@ -7,6 +7,9 @@ import Home from './components/Home';
 import Background from './components/Background';
 import ContactInfo from './components/ContactInfo';
 import Projects from './components/Projects';
+import SatelliteComparison from './components/Projects/SatelliteComparison';
+import ToDoList from './components/Projects/ToDoList';
+import PersonalTrainer from './components/Projects/PersonalTrainer';
 import './index.css';
 
 const router = createBrowserRouter([
@@ -29,6 +32,18 @@ const router = createBrowserRouter([
       {
         path: "projects",
         element: <Projects />,
+      },
+      {
+        path: "satellite",
+        element: <SatelliteComparison />
+      },
+      {
+        path: "todo",
+        element: <ToDoList />
+      },
+      {
+        path: "trainer",
+        element: <PersonalTrainer />
       }
     ]
   }

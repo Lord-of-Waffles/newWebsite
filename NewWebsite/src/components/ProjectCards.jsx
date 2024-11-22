@@ -45,6 +45,24 @@ function Cards() {
                     </CardContent>
                 </Card>
             </Tilt>
+            <Tilt tiltMaxAngleX={3} tiltMaxAngleY={3} scale={1.02}>
+                <Card style={{ position: 'relative' }}>
+                    <CardMedia
+                        component="div"
+                        style={{
+                            height: 200,
+                            width: 400,
+                            backgroundColor: '#0093E9',
+                            backgroundImage: 'linear-gradient(160deg, #ed66ed 0%, #4a54d9 100%)',
+                        }}
+                    />
+                    <CardContent style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                        <Typography variant="h5" component="div" style={{ color: 'white' }}>
+                            Personal Trainer
+                        </Typography>
+                    </CardContent>
+                </Card>
+            </Tilt>
 
         </>
     );

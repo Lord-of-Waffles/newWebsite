@@ -8,6 +8,9 @@ function App() {
         <Link to={"/projects"}></Link>
         <Link to={"/background"}></Link>
         <Link to={"/contact"}></Link>
+        <Link to={"/satellite"}></Link>
+        <Link to={"/todo"}></Link>
+        <Link to={"/trainer"}></Link>
       </nav>
       <Outlet />
     </>
