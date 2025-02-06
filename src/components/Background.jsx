@@ -34,7 +34,7 @@ function Backgrounds() {
                     at the Haaga-Helia University of Applied Sciences in Helsinki, Finland.
                 </Typography>
                 <Typography variant='h4' marginTop={3}>
-                    I'm majoring in software development, and am familiar with languages such as:
+                    I'm majoring in software development, and am familiar with languages including:
                 </Typography>
                 <Box>
                     <Typography variant='h4' marginTop={3}>- Java</Typography>
