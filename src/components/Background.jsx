@@ -38,8 +38,9 @@ function Backgrounds() {
                 </Typography>
                 <Box>
                     <Typography variant='h4' marginTop={3}>- Java</Typography>
-                    <Typography variant='h4'>- JavaScript (Node.js & React)</Typography>
+                    <Typography variant='h4'>- JavaScript (including React)</Typography>
                     <Typography variant='h4'>- Python</Typography>
+                    <Typography variant='h4'>- Currently learning Kotlin :)</Typography>
                 </Box>
                 <Typography variant='h4' marginTop={3}>
                     I'm familiar with technologies such as:
